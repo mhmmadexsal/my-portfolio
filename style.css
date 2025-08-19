@@ -1,0 +1,191 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #0d0d0d;
+  color: #fff;
+}
+
+.hero {
+  background: linear-gradient(to bottom, #ff007f 1%, #111 5%);
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  margin: 50px;
+}
+
+.nav ul {
+  list-style: none;
+  display: flex;
+  gap: 50px;
+  color: #ff007f;
+  align-items: center;
+}
+
+.nav li {
+  font-size: 20px;
+
+}
+
+.nav li a {
+  text-decoration: none;
+  color: #ff007f;
+}
+
+
+
+.logo {
+  height: 100px;
+  width: 100px;
+}
+
+.menu-btn {
+  background: none;
+  color: white;
+  border: 1px solid #fff;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+
+.hero-content h2 {
+  font-size: 36px;
+  line-height: 1.4;
+}
+
+.hero-content span {
+  color: #ff007f;
+}
+
+.hero-content p {
+  max-width: 600px;
+  margin: 20px auto;
+  color: #aaa;
+}
+
+.buttons .btn {
+  padding: 12px 24px;
+  margin: 10px;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.btn {
+  background-color: #ff007f;
+  color: #000;
+}
+
+.btn.outline {
+  background-color: transparent;
+  border: 2px solid #ff007f;
+  color: #ff007f;
+}
+
+/* Trusted By */
+.trusted {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.brands {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+/* Projects */
+.projects, .articles, .toolkit, .testimonials, .contact {
+  padding: 60px 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.project-grid, .article-grid, .testimonial-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.project-card, .article-card {
+  background-color: #1a1a1a;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.project-card a, .article-card a {
+  color: #ff007f;
+  text-decoration: none;
+}
+
+.icons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.icons img {
+  width: 120px;
+  height: 120px;
+}
+
+/* Testimonials */
+blockquote {
+  background-color: #1a1a1a;
+  padding: 20px;
+  border-left: 4px solid #ff007f;
+  border-radius: 8px;
+}
+
+blockquote footer {
+  margin-top: 10px;
+  color: #ccc;
+  font-size: 14px;
+}
+
+/* Contact */
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  background-color: #222;
+  color: white;
+}
+
+.contact-form button {
+  background-color: #ff007f;
+  border: none;
+  padding: 12px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* Footer */
+footer {
+  padding: 20px;
+  text-align: center;
+  font-size: 14px;
+  color: #aaa;
+}
